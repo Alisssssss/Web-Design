@@ -1,0 +1,23 @@
+html, body{
+	padding: 0;
+	margin: 0;
+	background: #e62739;
+}
+
+
+header {
+	background: #999;
+	color: white;
+}
+
+
+nav ul{
+	margin: 0;
+}
+
+nav ul li{
+	background: yellow;
+	color: purple;
+	display: inline-block;
+	list-style-type: none;
+}
