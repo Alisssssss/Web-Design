@@ -14,3 +14,52 @@
 .container-no-padding{
 	padding: 0;
 }
+
+
+.myPanel{
+	padding-top: 15px;
+}
+
+
+.panelCard{
+	box-shadow: 1px 1px 4px #ccc; /*x y blur color*/
+	border-radius: 5px 5px 5px 5px;
+	margin:0;
+	padding:0;
+}
+
+.panelHead{
+	background: #007bff;
+	border: 1px solid #007bff;
+	border-radius: 5px 5px 0 0;
+	-wekit-border-radius:5px;  /*to comply*/
+	-moz-border-radius:5px;
+	-o-border-radius:5px;
+	color: white;
+	font-size:16px;
+	font-weight: bolder;
+	padding: 10px 20px;
+}
+
+.panelBody{
+	background: white;
+	border: 1px solid #007bff;
+	border-radius: 0 0 5px 5px;
+	color: #999;
+	font-size:9px;
+	padding: 10px 20px;
+}
+
+
+.panelCard:hover {
+	box-shadow: 1px 1px 10px black;
+}
+
+.myPanel .showOnHover{
+	display: none;
+	padding: 5px 0 0 0;
+}
+
+.panelCard:hover .showOnHover{
+	display: block;
+}
